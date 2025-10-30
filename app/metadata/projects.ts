@@ -19,7 +19,7 @@ export const projects: Project[] = [
     name: "Used Engines INC",
     description:
       "An e-commerce platform connecting buyers and sellers of used engines. Built with React, Next.js, and Node.js to ensure smooth buying experiences and robust backend management.",
-    image: "https://www.usedengines.us/",
+    image: "/project2.png",
     demo: "https://www.usedengines.us/",
     github: "#",
   },

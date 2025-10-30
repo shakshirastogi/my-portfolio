@@ -11,19 +11,12 @@ export default function Projects() {
             className="bg-gray-800 rounded-2xl shadow-lg p-6 hover:scale-105 transition"
           >
             {/* Show iframe if it's a live demo, otherwise show image */}
-            {proj.demo.startsWith("http") ? (
-              <iframe
-                src={proj.demo}
-                className="rounded-lg mb-4 w-full h-64"
-                title={proj.name}
-              />
-            ) : (
-              <img
-                src={proj.image}
-                alt={proj.name}
-                className="rounded-lg mb-4 w-full h-64 object-cover"
-              />
-            )}
+
+            <img
+              src={proj.image}
+              alt={proj.name}
+              className="rounded-lg mb-4 w-full h-64 object-cover"
+            />
 
             <h3 className="text-xl font-semibold text-white">{proj.name}</h3>
             <p className="text-gray-400 mt-2">{proj.description}</p>
