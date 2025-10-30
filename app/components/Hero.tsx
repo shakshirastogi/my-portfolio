@@ -69,6 +69,14 @@ export default function Hero() {
           >
             Download Resume
           </a>
+          <a
+            href="https://leetcode.com/u/Sakshi_Rastogi/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600 transition"
+          >
+            LeetCode Profile
+          </a>
         </div>
       </motion.div>
 
